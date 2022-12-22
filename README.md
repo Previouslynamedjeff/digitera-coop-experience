@@ -1,1 +1,0 @@
-# digitera-coop-experience
