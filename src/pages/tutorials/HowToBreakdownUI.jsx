@@ -1,4 +1,4 @@
-function HowToBreakdownUI() {
+function HowToBreakDownUI() {
     return (
         <>
             How to breakdown UI.
@@ -6,4 +6,4 @@ function HowToBreakdownUI() {
     );
 }
 
-export default HowToBreakdownUI;
+export default HowToBreakDownUI;
