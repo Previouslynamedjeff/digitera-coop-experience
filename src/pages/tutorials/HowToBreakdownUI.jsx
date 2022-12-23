@@ -8,7 +8,6 @@ function HowToBreakDownUI() {
                 <title>How to Break Down a UI</title>
             </Helmet>
             <TitleCard>How to Break Down a UI</TitleCard>
-            How to breakdown UI.
         </>
     );
 }

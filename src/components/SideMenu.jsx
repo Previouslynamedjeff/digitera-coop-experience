@@ -24,8 +24,9 @@ function DrawerGroup({ groupItems, header }) {
     const arrowIcon = drawerOpen ? faAngleUp : faAngleDown;
 
     return (
-    <div className="pt-2 text-neutral-600 ">
-        <button className="text-lg bg-white rounded-lg w-full h-14 text-left py-2 pl-4 pr-6 flex justify-between items-center" onClick={() => setDrawerOpen(!drawerOpen)}>
+    <div className="pt-2 text-neutral-600">
+        <button className="text-lg bg-white rounded-lg w-full h-14 text-left py-2 pl-4 pr-6 flex xl:justify-between justify-around items-center" 
+            onClick={() => setDrawerOpen(!drawerOpen)}>
             <h2>{header}</h2>
             <FontAwesomeIcon icon={arrowIcon} className="text-neutral-500"/>
         </button>
@@ -60,8 +61,8 @@ function Drawer() {
     return (
     <div className="m-2">
         <DrawerItem href="/" text="Home" icon={<DrawerIcon icon={faHouse} />} key={0}/>
-        <DrawerGroup groupItems={tutorialGroup.items} key={tutorialGroup.key} header={tutorialGroup.header}/>
         <DrawerGroup groupItems={snapshotGroup.items} key={snapshotGroup.key} header={snapshotGroup.header} />
+        <DrawerGroup groupItems={tutorialGroup.items} key={tutorialGroup.key} header={tutorialGroup.header}/>
     </div>
     );
 }

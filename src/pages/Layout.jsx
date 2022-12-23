@@ -8,7 +8,7 @@ function Layout() {
         <div className="m-4 flex-grow basis-1/5">
             <SideMenu />
         </div>
-        <div className="m-4 flex-grow basis-4/5">
+        <div className="m-4 flex-grow basis-4/5 wrapper">
             <Outlet />
         </div>
     </div>
