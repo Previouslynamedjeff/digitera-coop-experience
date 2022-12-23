@@ -40,7 +40,7 @@ function GettingStarted() {
                 </p>
                 <p className="text-lg text-neutral-700 mb-4">
                     You will then be sent a project which you will be working on for your entire co-op term. Try to understand
-                    the tasks you are given and the purpose of the project.
+                    the tasks you are given and the purpose of the project. My task was to work on the backend of the app.
                 </p>
             </Card>
             <Card title="Running the App">
@@ -74,8 +74,8 @@ function GettingStarted() {
                         </p>
                         <p className="text-lg text-neutral-700 mb-4">
                             Even after your first read-through you may still not understand everything, which is okay. Understanding builds
-                            up after working on the project for a long time. You will learn the fastest while trying to fix bugs and implement
-                            new features.
+                            up after working on the project for a long time. I spent a lot of time learning about Firebase and Flutter so 
+                            I could understand the code. You will learn the fastest while trying to fix bugs and implement new features. 
                         </p>
                     </div>
                 </div>
