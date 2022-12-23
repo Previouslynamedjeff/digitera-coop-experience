@@ -20,5 +20,5 @@ export const snapshotGroup = {
         {href: "/creating-new-features", text: "Creating New Features", icon: <DrawerIcon icon={faCode} />, key: 9}, 
         {href: "/communicating-with-jordan", text: "Communicating With Jordan", icon: <DrawerIcon icon={faComment} />, key: 10}, 
     ],
-    header: "Snapshot of my Placement"
+    header: "My Experience"
 };
