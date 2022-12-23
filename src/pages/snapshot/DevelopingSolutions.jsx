@@ -2,6 +2,7 @@ import { Helmet } from "react-helmet";
 import { TitleCard } from "../../components/Title";
 import Card from "../../components/Card";
 import ImageInFirebase from "../../assets/image-in-firebase.png";
+import BugFree from "../../assets/bug-free.jpg";
 
 function DevelopingSolutions() {
     return (
@@ -32,7 +33,7 @@ function DevelopingSolutions() {
                     </Card>
                     <Card className="bg-white text-4xl py-4 px-8 m-2 rounded-xl flex-grow" title="Possibility #2: There is a network problem ❌">
                         <p className="text-lg text-neutral-700">
-                            Then, I considered that there might be a network issue. I dismissed this idea whenI found that 
+                            Then, I considered that there might be a network issue. I dismissed this idea when I found that 
                             the image should be stored locally in the program's memory. 
                         </p>
                     </Card>
@@ -55,6 +56,7 @@ function DevelopingSolutions() {
                     of code are responsible for the issue. I found that the code for the thumbnail preview image was split between two functions
                     in different files. You will be able to identify what the code is doing.
                 </p>
+                <img className="text-center box-border w-[60%] m-auto border-neutral-100 border-4 rounded-md my-8" alt="Skills section in resume" src={BugFree}/>
             </Card>
             <Card title="Researching and Implementing a Solution">
                 <p className="text-lg text-neutral-700 mb-4">
@@ -62,12 +64,12 @@ function DevelopingSolutions() {
                     come from searching for answers online. You will spend a lot of time combing through code documentation and
                     online forums. Often, you will not be the first person to encounter your issue. A popular website for researching
                     coding problems is <a href="https://stackoverflow.com/" target="_blank" className="text-blue-600 hover:underline">Stack Overflow</a>. I frequently used
-                    the <a href="https://docs.flutter.dev/" target="_blank" className="text-blue-600 hover:underline">Flutter documentation</a> and the <a href="https://firebase.google.com/docs" target="_blank">
-                    Firebase documentation</a>.
+                    the <a href="https://docs.flutter.dev/" target="_blank" className="text-blue-600 hover:underline">Flutter documentation</a> and the <a href="https://firebase.google.com/docs" 
+                    target="_blank" className="text-blue-600 hover:underline">Firebase documentation</a>.
                 </p>
                 <p className="text-lg text-neutral-700 mb-4">
                     The solution to getting the thumbnail preview to display was essentially just reminding the program
-                    that the image has been uploaded.
+                    that the image has been uploaded. Figuring out how to remind the program was a surprisingly tedious task to do.
                 </p>
             </Card>
         </div>
