@@ -21,10 +21,10 @@ How to break down a UI
 ## Snapshot
 
 - Getting started
-  - running the app
   - reading the code
     - how the code is structured
     - what the different parts do
+  - running the app
   - will take a good amount of time, might feel overwhelming
 - finding problems
   - running the app for unexpected behaviour

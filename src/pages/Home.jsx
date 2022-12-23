@@ -4,20 +4,8 @@ import AppScreenshot from "../assets/app-screenshot.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTwitter, faFacebook, faInstagram, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faLink } from "@fortawesome/free-solid-svg-icons";
-
-function Card(props) {
-    let classList = props.className !== undefined ? props.className : "bg-white rounded-xl p-8 pr-16 my-6 mx-2";
-    let titleClassList = "text-3xl font-semibold mb-4 " + 
-        (props.title !== undefined ? "after:h-1 after:w-20 after:block after:bg-rose-200 after:rounded-full after:mt-1" : "");
-    return (
-        <div className={classList}>
-            <h1 className={titleClassList}>
-                {props.title !== undefined ? props.title : undefined}
-            </h1>
-            {props.children}
-        </div>
-    );
-}
+import Card from "../components/Card";
+import DigiteraLogo from "../assets/digitera-logo.jpg";
 
 function Home() {
     return (
@@ -31,6 +19,9 @@ function Home() {
                 <p className="text-lg text-neutral-700 mb-4">
                     My name is Andrew Chu and this is my guide to my placement at Digitera. I will be covering my experiences as a 
                     fullstack developer and how to tackle some of the work you will be doing.
+                </p>
+                <p className="text-lg text-neutral-700 mb-4">
+                    I was assigned to work on the Skule News project, an app for sharing school-related articles between students.
                 </p>
                 <p className="text-lg text-neutral-700 mb-4">
                     This website is created in the likeness of the app I made during my co-op placement. However, this version was written
@@ -76,6 +67,7 @@ function Home() {
                     There are multiple types of technology placements available at Digitera. Some of the positions available are fullstack developer (me),
                     mobile developer, and graphic designer.
                 </p>
+                <img className="text-center box-border w-[20%] m-auto border-neutral-100 border-4 rounded-full" alt="Digitera logo" src={DigiteraLogo}/>
             </Card>
         </div>
     </>
