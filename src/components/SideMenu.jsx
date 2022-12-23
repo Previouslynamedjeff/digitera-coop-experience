@@ -7,8 +7,8 @@ import { NavLink } from "react-router-dom";
 
 function Logo() {
     return (
-    <div className="m-4 mb-8 flex items-center h-16 select-none xl:justify-start justify-center">
-        <img className="rounded-full border-black border-1 h-full" src={logoIcon} alt="logo"/>
+    <div className="mx-4 mt-2 mb-6 flex items-center h-20 select-none xl:justify-start justify-center">
+        <img className="rounded-full border-black border-1 h-full bg-rose-200" src={logoIcon} alt="logo"/>
         <h1 className="ml-4 text-lg xl:block hidden">My Co-op Experience</h1>
     </div>
     );
@@ -21,7 +21,6 @@ function DrawerGroup({ groupItems, header }) {
         <DrawerItem href={item.href} text={item.text} icon={item.icon} key={item.key}/>
     );
 
-    const itemsWrapperClassList = "pl-2" + (!drawerOpen ? " hidden" : "");
     const arrowIcon = drawerOpen ? faAngleUp : faAngleDown;
 
     return (
@@ -30,7 +29,7 @@ function DrawerGroup({ groupItems, header }) {
             <h2>{header}</h2>
             <FontAwesomeIcon icon={arrowIcon} className="text-neutral-500"/>
         </button>
-        <div className={itemsWrapperClassList}>
+        <div className={(!drawerOpen ? " hidden" : "")}>
             {items}
         </div>
     </div>
@@ -69,7 +68,7 @@ function Drawer() {
 
 function SideMenu() {
     return (
-    <nav className="bg-neutral-200 rounded-xl h-full flex flex-col py-4">
+    <nav className="bg-neutral-200 rounded-2xl h-full flex flex-col py-4">
         <Logo />
         <div className="w-full bg-neutral-400 h-[2px]"></div>
         <Drawer />
