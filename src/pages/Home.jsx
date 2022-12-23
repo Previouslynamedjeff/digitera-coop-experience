@@ -65,7 +65,8 @@ function Home() {
                 </Card>
                 <p className="text-lg text-neutral-700 mb-4">
                     There are multiple types of technology placements available at Digitera. Some of the positions available are fullstack developer (me),
-                    mobile developer, and graphic designer.
+                    mobile developer, and graphic designer. Digitera is a remote placement, meaning you can work from anywhere.
+                    I chose to work mostly at school but you could easily stay home for most of the term.
                 </p>
                 <img className="text-center box-border w-[20%] m-auto border-neutral-100 border-4 rounded-full" alt="Digitera logo" src={DigiteraLogo}/>
             </Card>
