@@ -44,5 +44,10 @@ How to break down a UI
     - implement it
 - developing new features
   - adding users via file
+    - brainstorming the feature
+    - finding solutions
+    - trying to implement
+    - failing to implement
+    - repeat
   - push notifications
 - communicating/reporting to jordan

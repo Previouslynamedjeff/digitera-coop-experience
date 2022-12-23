@@ -51,7 +51,7 @@ function GettingStarted() {
                 </p>
                 <img className="text-center box-border w-[70%] m-auto border-neutral-100 border-4 rounded-md my-8" alt="First time running the app" src={FirstRun}/>
                 <p className="text-lg text-neutral-700 mb-4">
-                    I remember that it took some to get my project running at first. I had to look online to figure out to fix
+                    I remember that it took some to get my project running at first. I had to look online to figure out how to fix
                     the issues. Luckily, I was working with another co-op student, Melanie, who helped me get things running.
                     If there is anything that truly does not work, try to ask other people working on your project or Jordan
                     for guidance.
