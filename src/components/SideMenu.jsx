@@ -59,15 +59,9 @@ function DrawerItem({ href, text, icon, selectedIndex, setSelected, index=0}) {
     );
 }
 
-export function Icon({ icon }) {
+export function DrawerIcon({ icon }) {
     return (
         <FontAwesomeIcon icon={icon} className="w-[7%] min-h-[65%] text-neutral-500 rounded-full" />
-    );
-}
-
-function ImageIcon({ src }) {
-    return (
-        <img src={src} className="h-full border-[1px] border-neutral-600 rounded-full" />
     );
 }
 
@@ -85,7 +79,7 @@ function Drawer() {
 
     return (
     <div className="m-2">
-        <DrawerItem href="/" text="Home" icon={<Icon icon={faHouse} />}
+        <DrawerItem href="/" text="Home" icon={<DrawerIcon icon={faHouse} />}
             selectedIndex={selectedIndex} setSelected={() => setSelectedIndex(0)} index={0} key={0}/>
         <DrawerGroup groupItems={tutorialGroup.items} key={tutorialGroup.key} header={tutorialGroup.header} 
             selectedIndex={selectedIndex} setSelected={setSelectedIndex}/>
