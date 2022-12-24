@@ -1,4 +1,4 @@
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 import { TitleCard } from "../../components/Title";
 import Card from "../../components/Card";
 import WeeklyWriteup from "../../assets/weekly-writeup.png";

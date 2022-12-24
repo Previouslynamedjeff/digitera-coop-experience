@@ -1,4 +1,4 @@
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 import { TitleCard } from "../../components/Title";
 
 function HowToBreakDownUI() {

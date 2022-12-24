@@ -1,4 +1,4 @@
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 import Title from "../components/Title";
 import AppScreenshot from "../assets/app-screenshot.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
