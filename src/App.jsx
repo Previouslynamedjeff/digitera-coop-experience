@@ -2,9 +2,7 @@ import Home from "./pages/Home";
 import Layout from "./pages/Layout";
 import NoPage from "./pages/NoPage";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import HowToBreakDownUI from "./pages/tutorials/HowToBreakDownUI";
-import HowToReadErrors from "./pages/tutorials/HowToReadErrors";
-import HowToCreateANewFeature from "./pages/tutorials/HowToCreateANewFeature";
+import HowToBreakDownUi from "./pages/tutorials/HowToBreakdownUi";
 import GettingStarted from "./pages/snapshot/GettingStarted";
 import FindingProblems from "./pages/snapshot/FindingProblems";
 import DevelopingSolutions from "./pages/snapshot/DevelopingSolutions";
@@ -19,9 +17,7 @@ function App() {
             <Route path="/" element={<Layout />}>
                 {/* Tutorials */}
                 <Route index element={<Home />}/>
-                <Route path="/how-to-break-down-a-ui" element={<HowToBreakDownUI />}/>
-                <Route path="/how-to-read-errors" element={<HowToReadErrors />}/>
-                <Route path="/how-to-create-a-new-feature" element={<HowToCreateANewFeature />}/>
+                <Route path="/how-to-break-down-a-ui" element={<HowToBreakDownUi />}/>
 
                 {/* Snapshot */}
                 <Route path="/getting-started" element={<GettingStarted />} />

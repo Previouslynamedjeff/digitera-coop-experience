@@ -6,7 +6,6 @@ export const tutorialGroup = {
     items: [
         {href: "/how-to-break-down-a-ui", text: "How to Break Down a UI", icon: <DrawerIcon icon={faLayerGroup}/>, key: 2},
         {href: "/how-to-read-errors", text: "How to Read Errors", icon: <DrawerIcon icon={faCircleExclamation} />, key: 3},
-        {href: "/how-to-create-a-new-feature", text: "How to Create a New Feature", icon: <DrawerIcon icon={faPlus} />, key: 4}
     ],
     header: "Tutorials"
 };
