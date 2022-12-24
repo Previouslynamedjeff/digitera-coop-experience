@@ -1,11 +1,10 @@
-import { faCircleExclamation, faCircleXmark, faCode, faComment, faFlag, faLayerGroup, faPlus, faWrench } from "@fortawesome/free-solid-svg-icons";
+import { faCircleXmark, faCode, faComment, faFlag, faLayerGroup, faPlus, faWrench } from "@fortawesome/free-solid-svg-icons";
 import { DrawerIcon } from "./SideMenu";
 
 export const tutorialGroup = {
     key: 1,
     items: [
         {href: "/how-to-break-down-a-ui", text: "How to Break Down a UI", icon: <DrawerIcon icon={faLayerGroup}/>, key: 2},
-        {href: "/how-to-read-errors", text: "How to Read Errors", icon: <DrawerIcon icon={faCircleExclamation} />, key: 3},
     ],
     header: "Tutorials"
 };
